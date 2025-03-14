@@ -1,5 +1,6 @@
 package com.example.greetingcard
 //testing github command in AS terminal
+//testing again
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
