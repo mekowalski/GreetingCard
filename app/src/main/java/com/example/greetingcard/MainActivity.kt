@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     GreetingImage(
-                        message = stringResource(R.string.happy_birthday_text),
+                        message = stringResource(R.string.greeting_text),
                         from = stringResource(R.string.signature_text),
                         modifier = Modifier.padding(9.dp)
                     )
@@ -90,7 +90,7 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) 
 fun GreetingPreview() {
     GreetingCardTheme {
         GreetingImage(
-            message = stringResource(R.string.happy_birthday_text),
+            message = stringResource(R.string.greeting_text),
             from = stringResource(R.string.signature_text)
         )
     }
